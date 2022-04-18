@@ -1,12 +1,11 @@
 import React from 'react';
-import BookCard from './BookCard';
 import'./BookList.css';
-
+import BookCardBestSellers from './BookCardBestSellers'
 
 function BookList(){
     return(
         <div className ="BookList">
-            <BookCard />
+            <BookCardBestSellers />
         </div>
     )
 

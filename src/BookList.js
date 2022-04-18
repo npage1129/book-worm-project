@@ -1,5 +1,5 @@
 import React from 'react';
-import BookCard from './BookCard';
+import BookCard from './BookCardBestSellers';
 import'./BookList.css';
 
 

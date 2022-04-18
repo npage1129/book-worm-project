@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Header from './base/Header.js';
+import Footer from './base/Footer.js';
+import './Home.css';
 
 function Home(){
-    return(){
+    return()
 
-    }
 }
-export default Home
+export default Home;

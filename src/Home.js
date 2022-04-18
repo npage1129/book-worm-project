@@ -11,6 +11,6 @@ function Home() {
       <BookList />
       <Footer />
     </div>
-  );``
+  );
 }
 export default Home;

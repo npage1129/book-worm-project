@@ -10,4 +10,4 @@ function BookCardBestSellers(){
     )
 }
 
-export default BookCard;
+export default BookCardBestSellers;

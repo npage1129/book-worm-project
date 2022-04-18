@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <p>Footer Here Add Later </p>
+      <p>Footer Here Add Later, new update </p>
     </div>
   );
 }

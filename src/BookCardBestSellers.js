@@ -4,7 +4,7 @@ import './BookCardBestSellers.css';
 function BookCardBestSellers(){
     return(
         <div className ="BookCardBestSellers">
-            
+
         </div>
 
     )

@@ -7,7 +7,7 @@ import BestSellerTab from './BestSellerTab';
 
 function App() {
   return (
-    <div className="App">
+    <div>
   <Router>
   <Routes>
       <Route path= "/" element = {<Home/>}/>

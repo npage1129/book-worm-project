@@ -7,15 +7,16 @@ import BestSellerTab from "./BestSellerTab";
 
 function App() {
   return (
+
     <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/ages" element={<Ages />} />
-          <Route path="/bestsellertab" element={<BestSellerTab />} />
-        </Routes>
-      </Router>
+  <Router>
+    <Routes>
+      <Route path= "/" element = {<Home/>}/>
+      <Route path= "/home" element = {<Home/>}/>
+      <Route path= '/ages' element = {<Ages/>}/>
+      <Route path = '/bestsellers' element = {<BestSellerTab/>}/>
+    </Routes>
+  </Router>
     </div>
   );
 }

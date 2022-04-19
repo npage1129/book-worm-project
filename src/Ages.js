@@ -5,9 +5,7 @@ import "./Ages.css";
 function Ages() {
   return (
     <div className="Ages">
-      <>
-        <Header />
-      </>
+      <Header />
     </div>
   );
 }

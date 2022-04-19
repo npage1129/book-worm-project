@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./base/Header";
+import Header from "./base/Header.js";
 import "./Ages.css";
 
 function Ages() {

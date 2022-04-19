@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./base/Header.js";
+import Header from "./base/Header";
 import "./BestSellerTab.css";
 
 function BestSellerTab() {
@@ -8,6 +8,7 @@ function BestSellerTab() {
           <>
             <Header />
           </>
+          <p>this is a test</p>
         </div>
       );
     }

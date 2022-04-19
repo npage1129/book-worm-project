@@ -1,3 +1,10 @@
 .navBar{
-    position: relative;
+    border: 0.5px solid white;
+    margin: 10px 50px 10px 6px;
+    padding: 8px 20px 8px 20px;
+    font-size: 20px;
+    background-color:rgb(160, 244, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold
+
 }

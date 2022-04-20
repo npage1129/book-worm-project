@@ -7,9 +7,9 @@ import "./Home.css";
 function Home() {
   const [book, setBook] = useState([]);
   useEffect(() => {
-    fetch("https://localhost:9292/books")
+    fetch(`http://localhost:9292/books`)
       .then((resp) => resp.json())
-      .then((data) => console.log(data.books));
+      .then((data) => console.log(data));
   }, []);
 
   return (
@@ -20,4 +20,5 @@ function Home() {
     </div>
   );
 }
+
 export default Home;

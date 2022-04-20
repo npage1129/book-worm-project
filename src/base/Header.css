@@ -1,11 +1,23 @@
-.navBar {
-  border: 0.5px solid white;
-  margin: 10px 50px 10px 6px;
-  padding: 8px 20px 8px 20px;
-  font-size: 20px;
-  background-color: rgb(160, 244, 233);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
 }
 
-/* hello there  */
+.navBar {
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  padding: 8px 20px 8px 20px;
+  font-size: 20px;
+  background-color: rgb(14, 183, 160);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  display: flex;
+}
+
+li {
+  display: inline;
+  padding: 10px 20px;
+}
+
+/* align text/logo and make sure to add @media */

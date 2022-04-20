@@ -9,13 +9,13 @@ function Home() {
   useEffect(() => {
     fetch(`http://localhost:9292/books`)
       .then((resp) => resp.json())
-      .then((data) => console.log(data));
+      .then((data) => setBook(data));
   }, []);
 
   return (
     <div className="Home">
       <Header />
-      <BookList />
+      <BookList book={book} />
       <Footer />
     </div>
   );

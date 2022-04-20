@@ -1,18 +1,19 @@
 import React from "react";
-import "./BookCardBestSellers.css";
+import { Image } from "antd";
+import "antd/dist/antd.css";
 
-function BookCardBestSellers(props) {
+function BookCardBestSellers({ book }) {
+  const bestsellers = book.filter((item) => item.rating === 5);
+  console.log(bestsellers);
+
   return (
-    <div className="pop_nef">
-      <div className="pop_item">
-        <div className="pop_link">
-          <a href={props.link} target="_blank">
-            <img src={props.imgs} alt="test"></img>
-          </a>
-        </div>
-        <div className="pop_name">
-          <h1>{props.name}</h1>
-        </div>
+    <div>
+      <div>
+        <Image.PreviewGroup>
+          {bestsellers.map((item) => (
+            <Image width={300} src={item.photo} />
+          ))}
+        </Image.PreviewGroup>
       </div>
     </div>
   );

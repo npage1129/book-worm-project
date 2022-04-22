@@ -1,23 +1,22 @@
 .header {
-  background-color: #f1f1f1;
+  background-color: #000000;
   text-align: center;
-  padding: 20px;
 }
 
 .navBar {
-  margin: 10px 10px 10px 10px;
-  text-align: center;
-  padding: 8px 20px 8px 20px;
-  font-size: 20px;
-  background-color: rgb(14, 183, 160);
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(233, 207, 61);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
-  display: flex;
+  font-size: 30px;
+  text-align: center;
 }
 
 li {
   display: inline;
   padding: 10px 20px;
+ 
 }
 
 /* align text/logo and make sure to add @media */

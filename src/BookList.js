@@ -4,8 +4,13 @@ import BookCardBestSellers from "./BookCard";
 
 function BookList({ book }) {
   const bestsellers = book.filter((item) => item.rating === 5);
+
+
   const firstages = book.filter((book) => book.age_range <= 5);
-  console.log(firstages + "hi this is for best sellers");
+  console.log(book + "hi this is for best sellers");
+
+
+
   const finalstages = book.filter(
     (book) => book.age_range >= 5 && book.age_range <= 10
   );

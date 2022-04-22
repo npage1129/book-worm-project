@@ -38,20 +38,27 @@ function Comments({ item, setContent, content }) {
 
   return (
     <div>
-      <p>
+      
         {thisBooksComment.map((comment) => ( 
-          <>{comment.comment} </>
+          <><ol>
+          <em>
+            <strong>“{comment.comment}“</strong>
+          </em>
+        </ol> </>
         ))}
-      </p>
+    <br/>
 
       <p>Thoughts on this book? Comment Here:</p>
       <textarea
+      style={{ margin: 10 }}
         onChange={(event) => setContent(event.target.value)}
         value={content}
         type="text"
         placeholder="I like this book because..."
       />
+        <br />
       <button
+          style={{ margin: 10 }}
         onClick={() => newComment(item.id)}
         variant="primary"
         type="button"
@@ -59,7 +66,17 @@ function Comments({ item, setContent, content }) {
         Submit
       </button>
       <div>
-      <div><CommentPage key = {item.id} content = {content} item = {item} /></div>
+      <h5 style={{ textAlign: "center"}}>
+      Made a comment by mistake?
+          <br />
+          Delete on the Comment Page
+          <br />
+          <span role="img" aria-label="sheep">
+          🐑
+          </span>
+          </h5>
+        
+      {/* <div><CommentPage key = {item.id} content = {content} item = {item} /></div> */}
       </div> 
     </div>
   );

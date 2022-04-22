@@ -52,7 +52,6 @@ img:active {
 .hidden_at_first {
   display: none;
   margin-top: 20px;
-  color: rgb(135, 40, 40);
   position: relative;
   z-index: 100;
 }

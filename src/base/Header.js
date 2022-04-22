@@ -4,20 +4,29 @@ import bookwormlogo from "../base/images/Bookworm.png";
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="header">
       <img src={bookwormlogo} alt="Bookworm" />
 
       <nav className="navBar">
-        <ul>
+        <ul style={{ color: "white" }}>
           <li>
-            <a href="./Home">Home</a>
+            <a href="./Home" style={{ color: "white", textDecoration: "none" }}>
+              Home
+            </a>
           </li>
 
           <li>
-            <a href="./Ages">Ages</a>
+            <a href="./Ages" style={{ color: "white", textDecoration: "none" }}>
+              About
+            </a>
           </li>
           <li>
-            <a href="./bestsellers">Best Sellers</a>
+            <a
+              href="./bestsellers"
+              style={{ color: "white", textDecoration: "none" }}
+            >
+              Comments
+            </a>
           </li>
         </ul>
       </nav>
